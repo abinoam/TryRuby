@@ -1,23 +1,22 @@
 ---
-lang:   EN
-title:  Got 30 minutes? Give Ruby a shot right now!
+lang:   PT
+title:  Você tem 30 minutos? Dê uma olhadinha em Ruby agora mesmo!
 answer: 
 class:  stretcher chapmark
 ok:     
 error:  
 ---
 
-Ruby is a programming language from Japan which is revolutionizing
-software development.
+Ruby é uma linguagem de programação do Japão que está revolucionando o desenvolvimento de software.
 
-The beauty of Ruby is found in its balance between simplicity and power.
+A beleza de Ruby se encontra no seu equilíbrio entre a simplicidade e o poder.
 
-You can type some Ruby code in the editor and use these buttons to navigate:
+Você pode digitar código Ruby no editor e usar esses botões para navegar:
 
-- __Run__ &rarr; Executes the code in the editor
-- __Copy__ &rarr; Copies the example code to the editor
-- __Next__ &rarr; Allows you to go to the next lesson
-- __Back__ &rarr; Allows you to return to the previous lesson
-- __Clear__ &rarr; Clears the editor
+- __Run__ &rarr; Executa o código que esteja no editor
+- __Copy__ &rarr; Copia o código exemplo para o editor
+- __Next__ &rarr; Permite ir para a próxima lição
+- __Back__ &rarr; Permite retornar para a lição anterior
+- __Clear__ &rarr; Limpa o editor
 
-### Click on __Next__ to start learning.
+### Clique em __Next__ para começar a aprender.
