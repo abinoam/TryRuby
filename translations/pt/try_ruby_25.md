@@ -1,13 +1,13 @@
 ---
-lang:   EN
-title:  Say Your Name
+lang:   PT
+title:  Diga seu nome
 answer: [a-zA-Z]{1,1}
-ok:     Perfect, you've formed a string from the letters of your name
+ok:     Perfeito, você formou uma string das letras do seu nome
 error:  
 ---
 
-Sure, computers are handy and fast for math. Let's move on. Want to see your name reversed?
+Claro, computadores são úteis e rápidos na matemática. Vamos p'ra frente. Quer ver seu nome ao contrário?
 
-First type your first name in quotes like this:
+Primeiro digite seu primeiro nome entre aspas assim:
 
-    "Jimmy"
+    "Levi"
