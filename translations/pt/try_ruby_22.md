@@ -1,27 +1,25 @@
 ---
-lang:   EN
-title:  Putting it differently
+lang:   PT
+title:  Puts!
 answer: ^[0-9\.,-]{1,}$
-ok:     Well put
+ok:     Putzgrilla!!!
 error:  
 ---
 
-Did you notice that if you typed more than one formula you only saw the answer for the last one.
-What is going on ?
+Você percebeu que se você tiver digitado mais de uma fórmula você verá apenas o resultado da última.
+O que está acontecendo?
 
-To make this website easier to use I have told Ruby to copy the result of your program to the output
-screen at the top. So when you type a formula you get to see the results.
-__But only the last result.__ And only if the output is still empty.
+Para fazer esse website mais fácil de se usar eu disse ao Ruby para copiar o resultado do seu programa para a janela de saída na parte superior. É porisso que quando você digita uma fórmula você consegue ver o resultado.
+__Mas apenas o último resultado.__ E somente se a saída ainda estiver vazia.
 
-So when you entered 2 or more formula's, Ruby only showed the result of the last formula.
+Dessa forma quando você entrou 2 ou mais fórmulas, Ruby mostrou apenas o resultado da última fórmula.
 
-Of course you have the power to control the screen ! Just type __puts__ before each formula
-(with a space in between). Puts means: *'put something on the screen'*.
+É claro que você tem o poder de controlar a tela! Simplesmente digite __puts__ antes de cada fórmula (com um espaço entre elas). Puts significa *'ponha algo na tela'*.
 
-Try this:
+Experimente isso:
 
     puts 4 * 10
     puts 5 - 12
     puts 30 / 4
 
-Now remove the puts from the last formula and see what happens.
+Agora remova o puts da última fórmula e veja o que acontece.
