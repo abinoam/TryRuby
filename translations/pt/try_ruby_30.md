@@ -1,16 +1,15 @@
 ---
-lang:   EN
-title:  Say Your Name Backwards
+lang:   PT
+title:  Diga seu nome ao contrário
 answer: \w+
-ok:     dooG
+ok:     moB
 error:  
 ---
 
-A string is a set of characters the computer can process. Imagine the letters are on a string of
-laundry line and the quotes are clothespins holding the ends. The quotes mark the beginning and end.
+Uma string é um conjunto de caracteres que o computador é capaz de processar. Imagine que as letras são um cordão (string) de pendurar roupas para secar e as aspas são pregadores de roupa limitando as pontas. As aspas marcam o início e o fim.
 
-To reverse your name, type: 
+Para inverter seu nome, digite:
 
-    "Jimmy".reverse
+    "Levi".reverse
 
-(Don't forget the dot!)
+(Não se esqueça do ponto!)
