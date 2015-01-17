@@ -1,34 +1,33 @@
 ---
-lang:   EN
-title:  Elemental
+lang:   PT
+title:  Elementar
 answer: ^(12|35|47)$
 load:   ticket = [12, 47, 35]
 ok:     Ok
-error:  Almost
+error:  Quase
 ---
 
-So we stored our lotto numbers inside variable ticket. How to get 'em out again ?
+Então guardamos nossos números de loteria dentro de uma variável chamada ticket. Como fazer para tirá-los de lá novamente?
 
-We already saw that we can get the highest number with __max__. Similarly you can
-get the __first__ or the __last__ element of the list.
-But what if you want a specific element ?
+Nós já vimos que nós podemos saber qual é o maior número com __max__. Da mesma forma você pode acessar o primeiro (__first__) ou o último (__last__) elemento da lista.
+Mas e se você quisesse acessar um elemento específico?
 
 ### [ ]
-Ruby uses the square brackets [ ] to target an element.
-The square brackets are very common in Ruby.
-They are like sights used to line up a target. Exactly.
-These brackets mean, "I am looking for ____" Ready, aim.
+Ruby usa os colchetes [ ] para acessar um elemento.
+Os colchetes são muito comuns em Ruby.
+Eles são como miras usadas para focar em um alvo. Exatamente.
+Esses colchetes significam, "Eu estou procurando por ____" Pronto, atirar.
 
-Let's get all of our lotto numbers:
+Vamos pegar todos os números de loteria:
 
     puts ticket[0]
     puts ticket[1]
     puts ticket[2]
 
-Why do we use [0], [1], [2] ?
+Por que usamos [0], [1], [2] ?
 
-And not [1], [2] and [3] ? Is that some kind of Japanese Zen thing ?
-No, we computer people just like to begin counting from zero. It's not just a Ruby thing,
-this _zero based indexing_ is used in most programming languages.
+E não [1], [2] e [3]? Seria algum tipo de coisa Zen do Japão?
+Não, nós da computação simplesmente gostamos de contar a partir do zero. Não é uma coisa específica de Ruby, essa _indexação baseada em zero_ é usada na maioria das linguagens de programação.
 
-> A little reminder: you can use the __Copy__ button to copy the example code to the editor.
+> Um pequeno lembrete: você pode usar o botão __Copy__ para copiar o código exemplo no editor.
+
