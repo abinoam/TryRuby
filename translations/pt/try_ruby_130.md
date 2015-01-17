@@ -1,23 +1,23 @@
 ---
-lang:   EN
-title:  Saved, Tucked Away
+lang:   PT
+title:  Salvo, Arrumado
 answer: \[12, 35, 47\]
 load:   ticket = [12, 47, 35]
-ok:     You've sorted the list
+ok:     Você ordenou a lista
 error:  
 ---
 
-You've hung on to your lotto numbers, tucking them away inside a __variable__ called ticket.
+Você se concentrou nos seus números de loteria, arrumando-os dentro de uma __variável__ chamada ticket.
 
-Programming, you will discover, is mostly about working with variables.
+Você vai descobrir que programação é basicamente trabalhar com variáveis.
 
-Let's put your lotto numbers in order, how about?
+Vamos por seus números de loteria em uma ordem, que tal?
 
 Use: 
 
     ticket.sort!
     
-You had a list. You sorted the list. The ticket variable is now changed.  
-Did you notice that the _sort!_ method has a big, bright exclamation at the end?  
-A lot of times Ruby methods shout like that if they alter the variable for good.
-It's nothin special, just a mark.
+Você tinha uma lista. Você ordenou a lista. A variável ticket agora mudou.
+Você percebeu que o método __sort!__ tem uma grande e brilhante exclamação no final?
+Muitas vezes os métodos Ruby gritam como se eles alterassem as variáveis.
+Não é nada especial, apenas uma marca.
