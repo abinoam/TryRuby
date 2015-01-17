@@ -1,15 +1,15 @@
 ---
-lang:   EN
-title:  Stop, You're Barking Mad!
+lang:   PT
+title:  Pare, você está enlouquecendo!
 answer: ^\d{1,}$
-ok:     Only strings can be reversed
+ok:     Apenas strings podem ser invertidas
 error:  
 ---
 
-You can't reverse the number forty. I guess you can hold your monitor up to the mirror, but reversing a number just doesn't make sense.
+Você não pode inverter o número quarenta. Eu imagino que você até possa segurar seu monitor em frente ao espelho, mas inverter um número simplesmente não faz sentido.
 
-Ruby has tossed an error message. Ruby is telling you there is no method reverse for numbers.
+Ruby soltou uma mensagem de erro. Ruby está te dizendo que não existe nenhum método 'reverse' para números.
 
-Maybe if you turn the number into a string first:
+Talvez se você transformar o número em uma string primeiro:
 
     40.to_s.reverse
