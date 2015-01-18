@@ -1,12 +1,12 @@
 ---
-lang:   EN
-title:  Ready, Aim
+lang:   PT
+title:  Pronto, Apontar
 answer: ^\n.ti tae ot (.+)
 load:   prev
-ok:     Okay, sure.  So the whole poem has been turned backwards.
+ok:     Ok, claro. Então o poema inteiro ficou ao contrário.
 error:  
 ---
 
-Here's a question: what happens when we reverse this whole poem? 
+Aqui vai uma pergunta: o que acontece quando invertemos um poema inteiro?
 
     poem.reverse
