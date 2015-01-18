@@ -1,27 +1,27 @@
 ---
-lang:   EN
-title:  A Wee Blank Book
+lang:   PT
+title:  Um livrinho em branco
 answer: ^(splendid|quite_good|mediocre|quite_not_good|abyssmal)$
 load:   books = {}
-ok:     Yes that's a new review
-error:  Use one of splendid, quite_good, mediocre, quite_not_good, abyssmal. Don't forget the colon
+ok:     Sim é uma nova revisão
+error:  Use splendid, quite_good, mediocre, quite_not_good, abyssmal. Não esqueça a vírgula
 ---
 
-You've made an empty __hash__. A hash is like an array, only every one of its elements has a name.
+Você fez uma __hash__ vazia. Uma hash é como uma array, com a diferença de que cada elemento dela tem um nome.
 
-We're going to stuff some miniature book reviews in our new hash. Here's our rating system:
+Vamos guardar algumas revisões de livros em miniatura em nossa nova hash. Aqui está nosso sistema de qualificações:
 
-- :splendid &rarr; a masterpiece
-- :quite\_good &rarr; enjoyed, sure, yes
-- :mediocre &rarr; equal parts great and terrible
-- :quite\_not\_good &rarr; notably bad
-- :abyssmal &rarr; steaming wreck
+- :splendid &rarr; uma obra prima
+- :quite\_good &rarr; gostei, certeza que gostei
+- :mediocre &rarr; bom e ruim ao mesmo tempo
+- :quite\_not\_good &rarr; bem ruim
+- :abyssmal &rarr; desgraça total
 
-To rate a book, put the title in square brackets and put the rating after the equals. For example:
+Para classificar um livro, ponha o título entre colchetes e ponha a classificação após o igual. Por exemplo:
 
     books["Gravitys Rainbow"] = :splendid
 
-> By now I think it is only fair to tell you that all lessons in TryRuby are separate from each other.
-> So if you go crazy typing book reviews here, you can only use 'em in this lesson.  
-> If you want to use your reviews in the next lesson you should copy/paste them.  
-> Don't worry about this too much, each lesson has plenty of predefined stuff for you to play around with.
+> Acho por bem informar que todas as lições em TryRuby são separadas umas das outras.
+> Então se você enlouquecer digitando revisões de livros aqui, você só pode usá-las nessa lição.
+> Se você quiser usar suas revisões em uma lição seguinte você deveria copiá-la e colá-la.
+> Não se preocupe muito com isso agora, cada lição tem um bocado de coisas predefinidas para você brincar.
