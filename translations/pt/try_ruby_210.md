@@ -1,24 +1,23 @@
 ---
-lang:   EN
-title:  More Bite-Size Reviews
+lang:   PT
+title:  Mais pequenas revisões de livros
 answer: [3-9]
 load:   books = {"Gravitys Rainbow" => :splendid}
-ok:     See, the length method works on strings, array's and hashes.
+ok:     Veja, o método 'length' funciona com strings, arrays e hashes.
 error:
 ---
 
-Keep going, fill it up with reviews. And, if you want to see the whole list, just type: __puts books__
+Continue, preencha as revisões. E, se você quiser ver a lista inteira, digite: __puts books__
 
-Again, the ratings are: :splendid, :quite\_good, :mediocre, :quite\_not\_good and :abyssmal.
+Repetindo, as avaliações são: :splendid, :quite\_good, :mediocre, :quite\_not\_good e :abyssmal.
 
-These ratings are not strings. When you place a colon in front of a simple word, you get a __symbol__.
-Symbols are cheaper than strings (in terms of computer memory.) If you use a word over and over in your program,
-use a symbol. Rather than having thousands of copies of that word in memory, the computer will store the symbol only
-__once__.
+Essas avaliações não são strings. Quando você coloca um sinal de dois pontos antes de uma palavra simples, você tem um __símbolo__ (Symbol).
 
-More importantly, a symbol tells you that is not just any old word but has a meaning within your program.
+Símbolos são versões mais baratas das strings (em termos de memória do computador). Se você usa uma palavra mais de uma vez no seu programa, use um símbolo. Ao invés de ter milhares de cópias dessa palavra na memória, o computador armazenará o símbolo apenas __uma vez__. 
 
-Enter 2 more bookreviews, use __books.length__ to see how many reviews there are in the hash:
+E mais importante, um símbolo alerta que não se trata apenas de uma velha palavra mas sim uma que tem algum significado no contexto do seu programa.
+
+Adicione mais 2 revisões de livros, use use __books.length__ para ver quantas revisões existem em uma hash:
 
     books["The deep end"]  = :abyssmal
     books["Living colors"] = :mediocre
