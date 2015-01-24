@@ -1,15 +1,15 @@
 ---
-lang:   EN
-title:  Are You Harsh?
+lang:   PT
+title:  Você é rigoroso?
 answer: "mediocre"
 load:   books = {"Gravitys Rainbow" => :splendid, "The deep end" => :abyssmal, "Living colors" => :mediocre, "Bumblebees" => :mediocre}
-ok:     Great, wow! You've made a scorecard of your ratings
+ok:     Ótimo, caramba! Você fez um quadro de resultados das suas avaliações
 error:  
 ---
 
-So are you giving out harsh, unfair reviews? Let's keep score with a new hash __ratings__:
+Então você está dando revisões severas e injustas? Vamos controlar as notas com uma nova Hash __ratings__:
 
-Then, okay, now let's count up your reviews. Just stay with me. Type:
+Isso, ok, agora deixe-me contabilizar suas revisões. Apenas me acompanhe. Digite:
 
     ratings = Hash.new {0}
     
@@ -19,7 +19,6 @@ Then, okay, now let's count up your reviews. Just stay with me. Type:
     
     puts ratings
 
-The straight line in the code is the pipe character, probably located right above the Enter key
-on your keyboard.
+O character linha vertical chama-se "pipe", na maioria dos teclados está localizado logo acima do da tecla Enter no seu teclado.
 
-Don't worry if you don't understand everything that is going on here. It will be revealed later.
+Não se preocupe se você não conseguir entender tudo o que está acontecendo aqui. Será explicitado mais a frente.
