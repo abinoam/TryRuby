@@ -1,38 +1,36 @@
 ---
-lang:   EN
+lang:   PT
 title:  To (be) or not to (be)
 answer: 
-load:   poem = "My toast has flown from my hand\nAnd my toast has gone to the moon.\nYada yada yada\n"
+load:   poem = "Minha torradeira voou da minha mão\nE minha torradeira se foi para a lua\nSei que lá, sei que lá\n"
 ok:     
 error:  
 ---
 
-One other little thing we haven't really talked about openly: method arguments.
-Remember when we changed the poem a little bit ? We used:  
+Mais uma coisinha sobre a qual ainda não conversamos abertamente: argumentos dos métodos.
+Você lembra quando nós mudamos o poema um pouco? Nós usamos:
+
 __poem.gsub("toast", "honeydew")__
     
-The gsub method needs 2 arguments, which we passed to gsub by including two strings between
-parenthesis. _Arguments tell the method exactly what to do._
+O método _gsub_ requer 2 argumentos, que nós passamos para gsub incluindo duas strings entre parênteses. _Argumentos dizem ao método exatamente o que fazer._
 
-### Parenthesis
-Actually, most of the time Ruby doesn't mind if you omit the parenthesis. So this would have
-worked too:  
+### Parênteses
+Realmente, a maior parte do tempo Ruby não se importa se você omitir os parênteses. Teria funcionado dessa forma também:
+
 __poem.gsub "toast", "honeydew"__
 
-We have already used another method with a parameter. Many times in fact, though it was not very
-obvious:
+Nós já usamos outro método com um parâmetro. Muitas vezes na verdade, apesar disso não ser muito óbvio:
 
     puts "Hello"
     puts("Hello")
     
-Yes __puts__ is also a method. Using puts with or without parenthesis is the same to Ruby, but the
-version without parenthesis is a bit easier to read. And it saves you valuable typing time !
+Sim __puts__ é também um método. Usando puts com ou sem parênteses é a mesma coisa em Ruby, mas a versão sem parênteses é um pouco mais fácil de ler. E lhe economiza precioso tempo de digitação.
 
-> So I guess the conclusion is that you can do whatever you like with parenthesis as long as your
-> code reads nicely.
+> Então eu imagino que a conclusão seja que você pode fazer o que
+> quiser com os parênteses, desde que seu código fique legível.
 
-### to (be) or not to (be)
-So if _to_ is a method and _be_ is an argument we now know the answer to this age old question.
-It is really just a matter of preference whether you want _to be_ or _to(be)_.
+### To (be) or not to (be)
+Então se _to_ é um método e _be_ é um argumento, agora sabemos a resposta para essa antiga questão.
+Realmente é apenas uma questão de preferência se você quer _to be_ ou _to(be)_.
 
-Are you in the mood for more Shakespeare ? Read on.
+Ainda está no ritmo para um pouco mais de Shakespeare? Continue lendo.
