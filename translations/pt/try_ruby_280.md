@@ -1,33 +1,28 @@
 ---
-lang:   EN
-title:  The Taming of the Shrew
-answer: ^tame
-ok:     Good good !
+lang:   PT
+title:  A Megera Domada
+answer: ^megera
+ok:     Bom bom!
 error:  
 ---
 
-You totally know how to use Ruby now. I mean you've got down the essentials.
-You just need to keep learning more methods and try out more complex blocks.
+Você já sabe Ruby agora. Quero dizer que você já pegou o essencial.
+Você só precisa continuar aprendendo mais métodos e tentar blocos mais complexos.
 
-But there's one side of Ruby we haven't settled. Making your own methods.
-__Ahem!__ Let's get it over with then.
+Mas há um lado de Ruby que não havíamos abordado. Construir seus próprios métodos.
+__A-ham!__ Vamos embora com eles.
 
-Next to using Ruby's built in methods (like puts, sort, times) you can define
-your own methods. Why is that a good idea? Two reasons:
+Da mesma forma que você usou os métodos de fábrica do Ruby (como puts, sort e times) você pode definir seus próprios métodos. Por que isso seria uma boa ideia? Dois motivos:
 
-### One
-To make your program shorter. If you have to do the same thing in more than one part of your
-code it is easier to put that code in a method. Your code would shrink by a factor of 2 or more.
+### Primeiro
+Para fazer seu programa mais curto. Se você tem que fazer a mesma coisa em mais de uma parte do seu código, é fácil por esse código em um método. Seu código se reduz a uma razão de 2 vezes ou mais.
 
-### Two
-Methods make your code easier to read. Suppose your program needs to do a lot of different
-things. You __could__ stuff all code into one long piece. But it would be very difficult to
-read and understand that code later.
+### Segundo
+Métodos fazem o seu código mais legível. Imagine que seu programa precisa fazer um monte de coisas diferentes. Você __poderia__ juntar todo o código em um longo fragmento. Mas isso iria dificultar a leitura e entendimento posterior do seu código.
 
-Instead you should cut up your code in different methods and give each method an easy to
-understand English name. You will thank yourself later.
+Ao invés disso você o corta em diferentes métodos e dá a cada método um nome fácil de ser entendido em linguagem natural. Você irá agradecer a você mesmo no futuro.
 
-So how do we define a method ? Like this:
+Então, como definimos um método? Assim:
 
-    def tame( number_of_shrews )
+    def megera( domada )
     end
